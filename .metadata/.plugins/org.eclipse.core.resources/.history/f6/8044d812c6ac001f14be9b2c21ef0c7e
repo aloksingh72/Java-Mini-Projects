@@ -1,0 +1,28 @@
+package shape_project;
+
+public class Cylinder implements ThreeDShape {
+	double r ;
+	double h;
+	Cylinder(){
+		
+	}
+	
+	Cylinder(double r , double h){
+	this.r = r;
+	this.h = h;
+	}
+	
+	//method body
+	
+	public void getVolume() {
+		
+	}
+	public void getCurvedSurfaceArea() {
+		
+	}
+	public void geTotalSurfaceArea() {
+		
+	}
+	
+
+}

@@ -1,0 +1,28 @@
+package shape_project;
+
+public class Triangle implements TwoDShape {
+	
+	double side1;
+	double side2;
+	double side3;
+	//no-args constructor 
+	public Triangle() {
+		 
+	 }
+	Triangle(double side1,double side2,double side3){
+		if(side1 + side2 > side3 && side2+side3 >side1 && side1 +side3 > side2) {
+			System.out.println("its a vlaid traingle");
+		}
+	}
+	
+	//giving  method  body
+	public void getArea() {
+		
+	}
+	public void getPerimeter() {
+		
+	}
+	 
+	
+
+}
